@@ -1,0 +1,10 @@
+ {
+  'rod_dataset_directory': '[...]/ROD2021',
+  'export_directory': '[...]',
+  'yolo_model_directory': '[...]/yolov10m.pt',
+  'camera_frames_per_second': 30,
+  'vru_velocity_meterspersecond': 4,
+  'dimple_angular_cell_width': 8,
+  'detection_to_groundtruth_acceptance_distance': [1.5, 2.2, 4.0],
+ }
+

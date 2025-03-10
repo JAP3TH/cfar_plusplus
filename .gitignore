@@ -1,0 +1,8 @@
+*.pt
+*.pdf
+*.mp4
+*.csv
+__pycache__/
+archive/
+*venv
+*egg-info

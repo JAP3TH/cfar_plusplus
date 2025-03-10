@@ -1,0 +1,10 @@
+datetime
+matplotlib
+numba
+numpy
+opencv-python
+pycocotools
+pandas
+scipy
+tqdm
+ultralytics
