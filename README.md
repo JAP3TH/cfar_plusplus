@@ -9,8 +9,9 @@ Besides, it shall encourage to conduct own research and to improve the framework
 ## Features:
 
 * Priori methodology with adaptable horizon for previous investigated radar signal spectra
-* Criticality evaluation approach
-* Plotting of diverse 
+* Spatial criticality evaluation approach
+* Threshold reduction based on camera-aided object detection
+* Plotting of diverse figures for visualization of the method and results
 
 ## Prerequisites
 
