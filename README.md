@@ -20,7 +20,6 @@ Besides, it shall encourage to conduct own research and to improve the framework
 ```console
 python3 -m venv venv
 source venv/bin/activate
-python3
 pip install -e .
 ```
 
@@ -33,13 +32,13 @@ pip install -e .
 * To find the guard bound and training bound parameters for the optimal CA-CFAR which serves as the baseline, simply run `exp_00.ipynb`.
 * For the Priori Region Identification, here is a list of how each experiment of table III in the paper can be run:
 
-| Notebook File Name         | Variant (Table III) | No. visited spectra n_{hist} | Gaussian Dimples |
-| -------------------------- |:-------------------:| ----------------------------:| ----------------:|
-| `exp_01.ipynb`              | A                  | 5                            |
-| `exp_02.ipynb`              | B                  | 0                            |
-| `exp_03.ipynb`              | C                  | 5                            | X
-| `exp_03.ipynb`              | D                  | 8                            | X
-| `exp_03.ipynb`              | E                  | 3                            | X
+| Notebook File Name         | Variant (Table III) | No. visited spectra $n_{hist}$ | Gaussian Dimples |
+| -------------------------- |:-------------------:| ------------------------------:| ----------------:|
+| `exp_01.ipynb`              | A                  | 5                              |
+| `exp_02.ipynb`              | B                  | 0                              |
+| `exp_03.ipynb`              | C                  | 5                              | X
+| `exp_03.ipynb`              | D                  | 8                              | X
+| `exp_03.ipynb`              | E                  | 3                              | X
 
 * The Camera-Aided Threshold Reduction can be run via the Notebook `exp_04.ipynb`.
 * All detection metrics can be determined and displayed with the notebook `exp_metrics.ipynb`.
