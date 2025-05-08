@@ -128,7 +128,7 @@ def create_baseline_csv(dir_export: Path):
     """
 
     results_df = pd.DataFrame(
-        columns=['file', 'fp', 'fn', 'f1', 'prec', 'recall'])
+        columns=['file', 'fp', 'fn', 'f1', 'recall', 'precision'])
 
     labellist = [0, 1]
 
